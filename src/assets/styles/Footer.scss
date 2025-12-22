@@ -3,10 +3,22 @@ footer {
     padding-top: 50px;
     padding-bottom: 50px;
 
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
     svg {
         width: 1.1em !important;
         height: 1.1em !important;
-        margin-right: 10px;
+        vertical-align: middle;
+    }
+
+    a {
+        display: inline-flex;
+        align-items: center;
     }
 
     p {

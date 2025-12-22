@@ -1,58 +1,46 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faProductHunt, faAws, faPython } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
-];
+    "Product Strategy",
+    "Roadmap",
+    "PRDs and Requirements",
+    "KPI Design",
+    "Cross-Functional Execution",
+  ];  
 
-const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
+  const labelsSecond = [
     "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
-];
+    "Serverless Architecture",
+    "Data Pipelines",
+    "Observability",
+    "CI/CD Automation",
+  ];  
 
-const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
-];
+  const labelsThird = [
+    "Model Evaluation",
+    "A/B Testing",
+    "LLMs",
+    "Prompt Engineering",
+    "Testing",
+  ];  
 
 function Expertise() {
     return (
-    <div className="container" id="expertise">
+    <div id="expertise">
         <div className="skills-container">
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <FontAwesomeIcon icon={faProductHunt} size="3x"/>
+                    <h3>Product Management</h3>
+                    <p>I lead multiple AI products end to end, owning strategy, requirements, metrics, and execution across complex, regulated domains. Experience shipping Voice AI, analytics, and automation with measurable impact.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Focus Areas:</span>
                         {labelsFirst.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -60,11 +48,11 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <FontAwesomeIcon icon={faAws} size="3x"/>
+                    <h3>Cloud</h3>
+                    <p>I design and deliver cloud systems focused on reliability, speed, and operational outcomes. Background in data ingestion, incident intelligence, and automation across production environments. AWS SAA-C03.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Focus Areas:</span>
                         {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -73,10 +61,10 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <h3>Applied AI</h3>
+                    <p>I build and iterate on applied AI systems with emphasis on evaluation, adoption, and real-world performance. Experience deploying LLM-enabled workflows that support data-driven decisions. AWS MLA-C01.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Focus Areas:</span>
                         {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}

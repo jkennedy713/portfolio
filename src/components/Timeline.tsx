@@ -16,50 +16,50 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2025 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">AI Product Manager</h3>
+            <h4 className="vertical-timeline-element-subtitle">Kyron Medical</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Product Strategy, Voice AI, KPI Design, Cross-Functional Execution, Healthcare Compliance
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2025 - 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Cloud Engineer Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Amazon Web Services (AWS)</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Data Ingestion, Incident Intelligence, Cloud Infrastructure, MTTR Reduction, Automation
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2024 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Program Manager</h3>
+            <h4 className="vertical-timeline-element-subtitle">Robospark Labs</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Program Design, Curriculum Development, Instructor Training, Community Impact
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="2023 - 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Product Manager Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Treevah</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Customer Discovery, Product Analytics, Experimentation, Roadmap Delivery, Adoption
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

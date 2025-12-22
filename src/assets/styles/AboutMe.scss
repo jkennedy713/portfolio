@@ -1,0 +1,64 @@
+.about-me-content {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-me-text {
+    flex: 1;
+    line-height: 1.8;
+    font-size: 1.1em;
+}
+
+.about-me-text p {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.about-me-text p:last-child {
+    margin-bottom: 0;
+}
+
+.about-me-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+.about-me-image img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    max-height: 500px;
+    border-radius: 10px;
+    object-fit: contain;
+    display: block;
+}
+
+@media screen {
+    @media (max-width: 768px) {
+        .about-me-content {
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .about-me-image {
+            width: 100%;
+        }
+
+        .about-me-image img {
+            max-width: 100%;
+        }
+
+        .about-me-text {
+            font-size: 1em;
+        }
+    }
+}
+

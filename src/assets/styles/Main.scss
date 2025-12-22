@@ -24,11 +24,20 @@
     .social_icons {
         display: flex;
         flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
         gap: 10px;
         color: white;
 
         svg {
-            font-size: 1.8em;
+            width: 1.1em !important;
+            height: 1.1em !important;
+            vertical-align: middle;
+        }
+
+        a {
+            display: inline-flex;
+            align-items: center;
         }
     }
 
@@ -125,11 +134,20 @@
             padding-top: 10px;
             display: flex !important;
             flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
             gap: 10px;
             color: white;
     
             svg {
-                font-size: 1.8em;
+                width: 1.1em !important;
+                height: 1.1em !important;
+                vertical-align: middle;
+            }
+
+            a {
+                display: inline-flex;
+                align-items: center;
             }
         }
 
