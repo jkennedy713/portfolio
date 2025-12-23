@@ -1,16 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import SubstackIcon from './SubstackIcon';
 import headshotImage from '../assets/images/Headshotcopy.png';
-import bgDarkImage from '../assets/images/bg-dark.png';
 import '../assets/styles/Main.scss';
 
 function Main() {
-  useEffect(() => {
-    // Preload background image to prevent offset flash
-    const img = new Image();
-    img.src = bgDarkImage;
-  }, []);
 
   return (
     <div className="container">
