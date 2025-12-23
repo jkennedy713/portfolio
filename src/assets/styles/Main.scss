@@ -14,7 +14,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: 50% 50%;
+    transform: translateZ(0);
 }
 
 .about-section .content {
