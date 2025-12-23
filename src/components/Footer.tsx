@@ -10,7 +10,7 @@ function Footer() {
         <a href="https://www.linkedin.com/in/jkenn05/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
         <a href="https://substack.com/@jkenn05/posts" target="_blank" rel="noreferrer"><SubstackIcon/></a>
       </div>
-      <p>By JJ Kennedy from Seattle ☕️</p>
+      <p>From Seattle ☕️</p>
     </footer>
   );
 }
