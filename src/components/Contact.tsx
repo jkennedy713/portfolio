@@ -25,28 +25,17 @@ function Contact() {
     setEmailError(email === '');
     setMessageError(message === '');
 
-    /* Uncomment below if you want to enable the emailJS */
-
-    // if (name !== '' && email !== '' && message !== '') {
-    //   var templateParams = {
-    //     name: name,
-    //     email: email,
-    //     message: message
-    //   };
-
-    //   console.log(templateParams);
-    //   emailjs.send('service_id', 'template_id', templateParams, 'api_key').then(
-    //     (response) => {
-    //       console.log('SUCCESS!', response.status, response.text);
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error);
-    //     },
-    //   );
-    //   setName('');
-    //   setEmail('');
-    //   setMessage('');
-    // }
+    if (name !== '' && email !== '' && message !== '') {
+      const subject = encodeURIComponent(`Contact from ${name}`);
+      const body = encodeURIComponent(`From: ${name}\nEmail/Phone: ${email}\n\nMessage:\n${message}`);
+      const mailtoLink = `mailto:jeffreykennedy@outlook.com?subject=${subject}&body=${body}`;
+      
+      window.location.href = mailtoLink;
+      
+      setName('');
+      setEmail('');
+      setMessage('');
+    }
   };
 
   return (

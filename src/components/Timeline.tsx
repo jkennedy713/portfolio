@@ -32,7 +32,7 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Cloud Engineer Intern</h3>
+            <h3 className="vertical-timeline-element-title">Cloud Engineer</h3>
             <h4 className="vertical-timeline-element-subtitle">Amazon Web Services (AWS)</h4>
             <p>
               Data Ingestion, Incident Intelligence, Cloud Infrastructure, MTTR Reduction, Automation
@@ -44,7 +44,7 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Program Manager</h3>
+            <h3 className="vertical-timeline-element-title">EdTech Program Manager</h3>
             <h4 className="vertical-timeline-element-subtitle">Robospark Labs</h4>
             <p>
               Program Design, Curriculum Development, Instructor Training, Community Impact
@@ -56,10 +56,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Product Manager Intern</h3>
+            <h3 className="vertical-timeline-element-title">Technical Program Manager</h3>
             <h4 className="vertical-timeline-element-subtitle">Treevah</h4>
             <p>
-              Customer Discovery, Product Analytics, Experimentation, Roadmap Delivery, Adoption
+              Program Delivery, Cross-Team Integration, Experimentation, Metrics & Adoption, Platform Enablement
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
